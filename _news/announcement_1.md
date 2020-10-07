@@ -1,7 +1,7 @@
 ---
 layout: post
-date: 2015-10-22 15:59:00-0400
+date: 2020-09-29
 inline: true
 ---
 
-A simple inline announcement.
+The Building Data Genome Project 2 paper got accepted to Nature's Scientific Data journal. We have released an open data set of 3,053 energy meter data from 1,636 non-residential buildings.

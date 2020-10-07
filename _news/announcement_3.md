@@ -1,7 +1,7 @@
 ---
 layout: post
-date: 2016-01-15 07:59:00-0400
+date: 2020-06-16
 inline: true
 ---
 
-A simple inline announcement with Markdown emoji! :sparkles: :smile:
+Our paper titled [EnergyStar++: Towards more accurate and explanatory building energy benchmarking](https://www.sciencedirect.com/science/article/abs/pii/S0306261920309259) got accepted to the Applied Energy journal.

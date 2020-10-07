@@ -7,18 +7,12 @@ description: <a href="#">Affiliations</a>. Address. Contacts. Moto. Etc.
 profile:
   align: right
   image: prof_pic.jpg
-  address: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
 
 news: true  # includes a list of news items
-selected_papers: true # includes a list of papers marked as "selected={true}"
+selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com){:target="\_blank"}. You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+I am a postdoctoral scholar at Berkeley Education Alliance for Research in Singapore ([BEARS](http://bears.berkeley.edu/)) Limited, a UC Berkeley's research centre, in Singapore. I work for the [SinBerBEST 2](http://sinberbest.berkeley.edu/) program (Theme D: Data Analytics for the Built Environment) under [Kameshwar Poolla](https://en.wikipedia.org/wiki/Kameshwar_Poolla). I did my Ph.D. in Computer Science and Engineering from IIIT-Delhi, India, under the guidance of [Amarjeet Singh](http://faculty.iiitd.ac.in/~amarjeet/) and [Pushpendra Singh](https://www.iiitd.edu.in/~pushpendra/). Before that, I received my Masters degree in computer applications from Madurai Kamaraj University, Tamilnadu, India.
 
-Put your address / P.O. box / other info right below your picture. You can also disable any these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
-
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](http://fortawesome.github.io/Font-Awesome/){:target="\_blank"} and [Academicons](https://jpswalsh.github.io/academicons/){:target="\_blank"}, like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+My research interests lie in the intersection of Data Science and Cyber-Physical Systems and their applications to smart buildings and energy sustainability. Specifically, I research on developing systems and methods for energy monitoring, benchmarking, prediction, and anomaly detection by leveraging smart meter and other opportunistic data sources. More recently, I am also investigating how to use Infrared Thermography (IRT) for building diagnostics and characterization at city scale.
