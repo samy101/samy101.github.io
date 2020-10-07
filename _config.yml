@@ -58,9 +58,9 @@ blogger_url: # your blogger URL
 # Blog
 # -----------------------------------------------------------------------------
 
-blog_name: blog  # your blog must have a name for it to show up in the nav bar
-blog_description: a simple whitespace theme for academics
-permalink: /blog/:year/:title/
+#blog_name: blog  # your blog must have a name for it to show up in the nav bar
+#blog_description: a simple whitespace theme for academics
+#permalink: /blog/:year/:title/
 
 # Pagination
 pagination:
