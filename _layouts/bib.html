@@ -5,11 +5,27 @@
   <div class="col-sm-2 abbr">
   {% if entry.abbr %}
     {% if site.data.venues[entry.abbr] %}
-    <abbr class="badge"><a href="{{site.data.venues[entry.abbr].url}}" target="_blank">{{entry.abbr}}</a></abbr>
+    <abbr class="badge badge-pill"><a href="{{site.data.venues[entry.abbr].url}}" target="_blank">{{entry.abbr}}</a></abbr>
     {% else %}
-    <abbr class="badge">{{entry.abbr}}</abbr>	
+    <abbr class="badge badge-pill">{{entry.abbr}}</abbr>	
     {% endif %}
   {% endif %}
+  
+  {% if entry.type == "article" %}
+    {% if site.data.venues[entry.journal] %}	
+	   <abbr class="badge badge-pill badge-success">IF: {{site.data.venues[entry.journal].impact_factor}}</abbr>
+	{% endif %}
+  {% endif %}
+  
+  {% if entry.type == "inproceedings" %}    
+    {% if site.data.venues[entry.abbr] %}	
+	  {% if site.data.venues[entry.abbr].core_rank %}
+	    <abbr class="badge badge-pill badge-success"><a href="{{site.data.venues[entry.abbr].core_rank_url}}" target="_blank">CORE: {{site.data.venues[entry.abbr].core_rank}}</a></abbr>
+	  {% endif %}
+	{% endif %}
+  {% endif %}
+
+  
   </div>
 
   <div id="{{entry.key}}" class="col-sm-8">
@@ -55,7 +71,13 @@
       {% if entry.type == "article" %}
         <em>{{entry.journal}}</em>
       {% elsif entry.type == "inproceedings" %}
-        <em>In {{entry.booktitle}}</em>
+        <em>In {{entry.booktitle}}</em>		
+		{% if entry.series %}
+		   <em>({{entry.series}})</em>,
+		{% endif %}		
+		{% if entry.location %}
+		   <em>{{entry.location}}</em>,
+		{% endif %}
       {% endif %}
       {% if entry.year %}
         {{entry.year}}
@@ -72,6 +94,9 @@
     {% endif %}
     {% if entry.html %}
       <a href="{{ entry.html }}" class="btn btn-sm z-depth-0" role="button" target="_blank">HTML</a>
+    {% endif %}
+	{% if entry.url %}
+      <a href="{{ entry.url }}" class="btn btn-sm z-depth-0" role="button" target="_blank">LINK</a>
     {% endif %}
     {% if entry.pdf %}
       {% if entry.pdf contains '://' %}
@@ -109,6 +134,9 @@
     {% endif %}
     {% if entry.website %}
       <a href="{{ entry.website }}" class="btn btn-sm z-depth-0" role="button" target="_blank">Website</a>
+    {% endif %}	
+	{% if entry.video %}
+      <a href="{{ entry.video }}" class="btn btn-sm z-depth-0" role="button" target="_blank">Video</a>
     {% endif %}
     </div>
 
