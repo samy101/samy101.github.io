@@ -7,9 +7,11 @@
       {% for item in news limit: site.news_limit %}
         <tr>
           <th scope="row"> 
-		  <span class="badge blue darken-1 font-weight-bold text-uppercase align-middle date ml-1">
-			{{ item.date | date: "%b %-d, %Y" }}
-		  </span>
+			<div class="col-sm-2 p-0">
+				<span class="badge badge-info darken-1 font-weight-bold text-uppercase align-middle date ml-3">
+				{{ item.date | date: "%b %-d, %Y" }}
+				</span>
+			</div>
 		  </th>
           <td>
             {% if item.inline %}
