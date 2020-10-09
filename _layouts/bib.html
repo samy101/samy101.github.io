@@ -13,14 +13,14 @@
   
   {% if entry.type == "article" %}
     {% if site.data.venues[entry.journal] %}	
-	   <abbr class="badge badge-pill badge-success">IF: {{site.data.venues[entry.journal].impact_factor}}</abbr>
+	   <abbr class="badge badge-pill">IF: {{site.data.venues[entry.journal].impact_factor}}</abbr>
 	{% endif %}
   {% endif %}
   
   {% if entry.type == "inproceedings" %}    
     {% if site.data.venues[entry.abbr] %}	
 	  {% if site.data.venues[entry.abbr].core_rank %}
-	    <abbr class="badge badge-pill badge-success"><a href="{{site.data.venues[entry.abbr].core_rank_url}}" target="_blank">CORE: {{site.data.venues[entry.abbr].core_rank}}</a></abbr>
+	    <abbr class="badge badge-pill"><a href="{{site.data.venues[entry.abbr].core_rank_url}}" target="_blank">CORE: {{site.data.venues[entry.abbr].core_rank}}</a></abbr>
 	  {% endif %}
 	{% endif %}
   {% endif %}

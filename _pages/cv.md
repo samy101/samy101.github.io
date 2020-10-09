@@ -18,9 +18,12 @@ Work experience
 * Postdoctoral Scholar: June 2018 - present
    - Berkeley Education Alliance for Research in Singapore (BEARS) Limited
 
-* PhD Scholar: July 2010 - February 2018
+* PhD Scholar: July 2010 - March 2018
    - Indraprastha Institute of Information Technology (IIIT) Delhi, India
    - Dissertation title: Occupant-Centric Federated Cyber-Physical System or Building Management
+
+* Data Scientist: December 2017 - May 2018
+   - SenSing Technologies Private Limited, Singapore
 
 * Consultant/Data Scientist: June 2016 - May 2017
    - Dataglen Technologies Private Limited, Bangalore, India
