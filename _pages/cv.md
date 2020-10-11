@@ -11,7 +11,7 @@ Education
 ======
 * Ph.D in Computer Science and Engineering, Indraprastha Institute of Information Technology (IIIT) Delhi, India, 2018
 * Master of Computer Applications (MCA), Madurai Kamraj University, Madurai, India, 2007
-* Bachelor of Science in Computer Science, Manonmaniam Sundaranar University, Tamilnadu, India, 2004
+* Bachelor of Science in Computer Science, Manonmaniam Sundaranar University, Tirunelveli, India, 2004
 
 Work experience
 ======  
@@ -20,7 +20,7 @@ Work experience
 
 * PhD Scholar: July 2010 - March 2018
    - Indraprastha Institute of Information Technology (IIIT) Delhi, India
-   - Dissertation title: Occupant-Centric Federated Cyber-Physical System or Building Management
+   - Dissertation title: Middleware systems and analytics for energy management in buildings.
 
 * Data Scientist: December 2017 - May 2018
    - SenSing Technologies Private Limited, Singapore
