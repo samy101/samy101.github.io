@@ -6,14 +6,14 @@
       {% assign news = site.news | reverse %}
       {% for item in news limit: site.news_limit %}
         <tr>
-          <th scope="row"> 
+          <td scope="row"> 
 			<div class="col-sm-2 p-0">
 				<span class="badge badge-info darken-1 font-weight-bold text-uppercase align-middle date ml-3">
 				{{ item.date | date: "%b %-d, %Y" }}
 				</span>
 			</div>
-		  </th>
-          <td>
+		  </td >
+          <td class="announcement">
             {% if item.inline %}
               {{ item.content | remove: '<p>' | remove: '</p>' | emojify }}
             {% else %}
