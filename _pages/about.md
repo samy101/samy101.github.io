@@ -7,11 +7,11 @@ description: <a href="#">Affiliations</a>. Address. Contacts. Moto. Etc.
 profile:
   align: right
   image: prof_pic.jpg
-  address: >
-    <!--p>Berkeley Education Alliance for Research in Singapore (BEARS) Limited</p-->	
-    <p>#11-01, CREATE Tower,</p>
-    <p>1 Create Way,</p>	
-    <p>Singapore 138602.</p>  	
+#  address: >
+#    <!--p>Berkeley Education Alliance for Research in Singapore (BEARS) Limited</p-->	
+#    <p>#11-01, CREATE Tower,</p>
+#    <p>1 Create Way,</p>	
+#    <p>Singapore 138602.</p>  	
 
 news: true  # includes a list of news items
 selected_papers: false # includes a list of papers marked as "selected={true}"
