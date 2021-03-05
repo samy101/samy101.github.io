@@ -19,7 +19,7 @@ Building energy performance benchmarking has been adopted widely in the USA and 
 
 **Team member:** Pandarasamy Arjunan<br>
 **Advisors:** Kameshwar Poolla (UC Berkeley) and Clayton Miller (NUS)<br>
-**Code:** [github](https://github.com/buds-lab/energystar-plus-plus)<br>
+**Code:** [github](https://github.com/buds-lab/energystar-plus-plus){:target="_blank" rel="noopener"}<br>
 **Publications:** 
 <div class="publications">
   {% bibliography -f papers -q @*[title=EnergyStar++: Towards more accurate and explanatory building energy benchmarking]* %}

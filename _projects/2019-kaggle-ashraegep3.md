@@ -10,10 +10,10 @@ In late 2019, ASHRAE hosted the Great Energy Predictor III (GEPIII) machine lear
 
 <!-- I am one of the core members of the  technical committee and co-led the data preparation and model prototyping process, and validated the winning solutions.-->
 
-**Competition website:** [Kaggle](https://www.kaggle.com/c/ashrae-energy-prediction)<br>
-**Code:** [Overview of analysis of data about the competition](https://github.com/buds-lab/ashrae-great-energy-predictor-3-overview-analysis) and [Top 5 winning solutions](https://github.com/buds-lab/ashrae-great-energy-predictor-3-solution-analysis)<br>
-**Dataset:** [The Building Data Genome 2 (BDG2) - extended version](https://github.com/buds-lab/building-data-genome-project-2)<br>
-**Video:** [An overview of the competition from the ASHRAE 2020 Online Conference](https://www.youtube.com/watch?v=xqtBVy5cZgA&feature=youtu.be)
+**Competition website:** [Kaggle](https://www.kaggle.com/c/ashrae-energy-prediction){:target="_blank" rel="noopener"}<br>
+**Code:** [Overview of analysis of data about the competition](https://github.com/buds-lab/ashrae-great-energy-predictor-3-overview-analysis){:target="_blank" rel="noopener"} and [Top 5 winning solutions](https://github.com/buds-lab/ashrae-great-energy-predictor-3-solution-analysis){:target="_blank" rel="noopener"}<br>
+**Dataset:** [The Building Data Genome 2 (BDG2) - extended version](https://github.com/buds-lab/building-data-genome-project-2){:target="_blank" rel="noopener"}<br>
+**Video:** [An overview of the competition from the ASHRAE 2020 Online Conference](https://www.youtube.com/watch?v=xqtBVy5cZgA&feature=youtu.be){:target="_blank" rel="noopener"}
 
 **Publications:** 
 <div class="publications">

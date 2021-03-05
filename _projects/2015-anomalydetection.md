@@ -11,7 +11,7 @@ Anomaly detection is an important problem in building energy management in order
 
 **Team member**: Pandarasamy Arjunan (IIIT-Delhi)<br>
 **Advisors:** Harshad D Khadilkar (IBM Research, Bangalore), Tanuja Ganu (IBM Research, Bangalore), Zainul M Charbiwala (IBM Research, Bangalore), Dr. Amarjeet Singh (IIIT-Delhi), and Dr. Pushpendra Singh (IIIT-Delhi)<br>
-**Code:** [github](https://github.com/samy101/anomaly_detection)<br>
+**Code:** [github](https://github.com/samy101/anomaly_detection){:target="_blank" rel="noopener"}<br>
 **Publications:** 
 <div class="publications">
   {% bibliography -f papers -q @*[title=Multi-User Energy Consumption Monitoring and Anomaly Detection with Partial Context Information]* %}

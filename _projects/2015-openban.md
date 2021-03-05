@@ -20,7 +20,7 @@ Towards the realization of smart building applications, buildings are increasing
 
 **Team members:** Pandarasamy Arjunan (IIIT-Delhi) and Kevin Ting (UCLA)<br>
 **Advisors:** Prof. Mani B Srivastava (UCLA), Dr. Amarjeet Singh (IIIT-Delhi), and Dr. Pushpendra Singh (IIIT-Delhi)<br>
-**Code:** [github](https://github.com/samy101/OpenBAN)<br>
+**Code:** [github](https://github.com/samy101/OpenBAN){:target="_blank" rel="noopener"}<br>
 **Publications:** 
 <div class="publications">
   {% bibliography -f papers -q @*[title=OpenBAN: An Open Building ANalytics Middleware for Smart Buildings]* %}

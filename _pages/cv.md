@@ -5,7 +5,7 @@ title: CV
 nav: true
 ---
 
-[PDF](../assets/pdf/samy_cv.pdf)
+[PDF](../assets/pdf/samy_cv.pdf){:target="_blank" rel="noopener"}
 
 Education
 ======
