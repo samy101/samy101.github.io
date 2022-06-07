@@ -1,3 +1,7 @@
+Computer:
+    url: https://www.computer.org/csdl/magazine/co
+    impact_factor: 3.564
+
 IEEE Computer:
     url: https://www.computer.org/csdl/magazine/co
     impact_factor: 3.564
@@ -5,6 +9,10 @@ IEEE Computer:
 Applied Energy:
     url: https://www.journals.elsevier.com/applied-energy
     impact_factor: 8.848
+
+Science and Technology for the Built Environment:
+    url: https://www.tandfonline.com/toc/uhvc21/current
+    impact_factor: 1.356
   
 ASHRAE STBE:
     url: https://www.tandfonline.com/toc/uhvc21/current
@@ -17,10 +25,14 @@ Scientific Data:
 Building Simulation:
     url: https://www.springer.com/journal/12273
     impact_factor: 2.472
+
+MDPI Atmosphere:
+    url: https://www.mdpi.com/journal/atmosphere
+    impact_factor: 2.686    
     
 Atmosphere:
-    url: https://www.springer.com/journal/12273
-    impact_factor: 2.472    
+    url: https://www.mdpi.com/journal/atmosphere
+    impact_factor: 2.686    
     
 MobiQuitous :
     url: https://mobiquitous.eai-conferences.org/
