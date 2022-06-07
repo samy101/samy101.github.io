@@ -3,6 +3,44 @@
 
 @string{aps = {American Physical Society,}}
 
+@article{arjunan2022beem,
+  journal = {Energy and Buildings},
+  title = {BEEM: Data-driven building energy benchmarking for Singapore},
+  author = {Pandarasamy Arjunan and Kameshwar Poolla and Clayton Miller},
+  abstract = {Building energy use benchmarking is the process of measuring the energy performance of buildings relative to their peer group for creating awareness and identifying energy-saving opportunities. In this paper, we present the design and implementation of BEEM, a data-driven energy use benchmarking system for buildings in Singapore. The peer groups for comparison are established using a public energy disclosure data set. We use an ensemble tree algorithm for accurately modeling building energy use and for identifying the most influential factors. Our models reduce the prediction error from 24.39% to 6.04%, on average, when compared to the baseline linear regression models, which were used in the previous energy efficiency labeling program in Singapore, and outperforms ten other recent models. Using the prototype implementation of BEEM, we benchmarked three building types, office (290), hotel (203), and retail (125), and compared their rating. The code repository and the accompanying data set are released as an open-source project for community use.},
+  journal = {Energy and Buildings},
+  volume = {260},
+  pages = {111869},
+  month = {April },
+  year = {2022},
+  publisher={Elsevier},  
+  issn = {0378-7788},
+  doi = {https://doi.org/10.1016/j.enbuild.2022.111869},
+  url = {https://www.sciencedirect.com/science/article/pii/S0378778822000408}
+  code={https://github.com/samy101/BEEM},  
+  pdf={2022-beem.pdf}
+}
+
+@inproceedings{arjunan2021operational,
+  abbr={ACM BuildSys},
+  title={Operational characteristics of residential air conditioners with temporally granular remote thermographic imaging},
+  author={Arjunan, Pandarasamy and Dobler, Gregory and Lee, Kyungmin and Miller, Clayton and Biljecki, Filip and Poolla, Kameshwar},
+  abstract={Collecting accurate information about the operational characteristics of buildings is essential for many performance analyses including energy auditing and benchmarking. While most of the existing solutions involve manual inspection of building premises, surveys, or in-situ sensor deployment, these techniques are intrusive and/or time-intensive, limiting their applicability at larger, city-level spatial scales. Complementing these solutions, we present a wide-area infrared thermography (IRT) based system for measuring a building's operational characteristics remotely in a non-intrusive and scalable way, and we describe the image capture, processing pipeline, and preliminary results from an initial deployment of this system focusing on the operational characteristics of air-conditioning units. The data collection consisted of infrared imaging of a residential building for 50 days at continuous 10-second intervals. The infrared brightness variations of exterior split air-conditioners fixtures were extracted for each image, and operational attributes were then extracted from the resultant time series. Using state-based change point detection methods to determine times at which air-conditioners are operational, our preliminary analysis focuses on phenomenological patterns of activity with two main findings. First, we demonstrate our ability to determine the operational characteristics of air-conditioners and in particular the fact that they exhibit two distinct modes: continuous operation and cycling behavior. Second, we find that the fraction of "on" time spent in the cycling mode is characteristically longer for lower external temperatures, consistent with the hypothesis that the cycling mode represents a reaching of set temperature. Finally, we outline future research directions and challenges in leveraging IRT for behavioral studies of cooling system use and proactive assessment of air-conditioners towards the development of scalable virtual energy auditing.},  
+  year = {2021},
+  isbn = {9781450391146},
+  publisher = {Association for Computing Machinery},
+  address = {New York, NY, USA},
+  url = {https://doi.org/10.1145/3486611.3486659},
+  doi = {10.1145/3486611.3486659},
+  booktitle = {Proceedings of the 8th ACM International Conference on Systems for Energy-Efficient Buildings, Cities, and Transportation},
+  pages = {184–187},
+  numpages = {4},
+  keywords = {residential air conditioners, infrared thermography, energy efficiency, building characterization, energy auditing, user behavior},location = {Coimbra, Portugal},  
+  series = {BuildSys '21},
+  pdf={2021-irt-singapore.pdf}
+}
+
+
 @article{srinivasan2021explainable,
   abbr={IEEE Computer},
   title={Explainable AI for chiller fault-detection systems: gaining human trust},
