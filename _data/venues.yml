@@ -1,12 +1,12 @@
+IEEE Computer:
+    url: https://www.computer.org/csdl/magazine/co
+    impact_factor: 3.564
+
 Applied Energy:
     url: https://www.journals.elsevier.com/applied-energy
     impact_factor: 8.848
-
-Science and Technology for the Built Environment:
-    url: https://www.tandfonline.com/toc/uhvc21/current
-    impact_factor: 1.356
-    
-STBE:
+  
+ASHRAE STBE:
     url: https://www.tandfonline.com/toc/uhvc21/current
     impact_factor: 1.356
 
