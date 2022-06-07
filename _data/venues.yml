@@ -1,3 +1,19 @@
+Applied Energy:
+    url: https://www.journals.elsevier.com/applied-energy
+    impact_factor: 8.848
+
+Atmosphere:
+    url: https://www.mdpi.com/journal/atmosphere
+    impact_factor: 2.686    
+
+MDPI Atmosphere:
+    url: https://www.mdpi.com/journal/atmosphere
+    impact_factor: 2.686 
+
+Building Simulation:
+    url: https://www.springer.com/journal/12273
+    impact_factor: 2.472
+
 Computer:
     url: https://www.computer.org/csdl/magazine/co
     impact_factor: 3.564
@@ -5,10 +21,10 @@ Computer:
 IEEE Computer:
     url: https://www.computer.org/csdl/magazine/co
     impact_factor: 3.564
-
-Applied Energy:
-    url: https://www.journals.elsevier.com/applied-energy
-    impact_factor: 8.848
+  
+Energy and Buildings:
+    url: https://www.sciencedirect.com/journal/energy-and-buildings
+    impact_factor: 4.867
 
 Science and Technology for the Built Environment:
     url: https://www.tandfonline.com/toc/uhvc21/current
@@ -18,21 +34,13 @@ ASHRAE STBE:
     url: https://www.tandfonline.com/toc/uhvc21/current
     impact_factor: 1.356
 
+Nature Scientific Data:
+    url: https://www.nature.com/sdata/
+    impact_factor: 6.776
+
 Scientific Data:
     url: https://www.nature.com/sdata/
     impact_factor: 6.776
-    
-Building Simulation:
-    url: https://www.springer.com/journal/12273
-    impact_factor: 2.472
-
-MDPI Atmosphere:
-    url: https://www.mdpi.com/journal/atmosphere
-    impact_factor: 2.686    
-    
-Atmosphere:
-    url: https://www.mdpi.com/journal/atmosphere
-    impact_factor: 2.686    
     
 MobiQuitous :
     url: https://mobiquitous.eai-conferences.org/
