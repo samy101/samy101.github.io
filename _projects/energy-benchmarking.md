@@ -1,6 +1,6 @@
 ---
 layout: page
-title: EnergyStar++
+title: Energy Benchmarking
 description: More accurate and explanatory building energy benchmarking
 github: https://github.com/buds-lab/energystar-plus-plus
 importance: 10
