@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Infrared Thermography (IRT)
+title: Infrared Thermography
 description: Infrared Thermography (IRT) for city-scale building diagnostics and energy auditing.
 img: /assets/img/ir-residential.png
 importance: 10

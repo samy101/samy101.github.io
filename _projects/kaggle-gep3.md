@@ -2,6 +2,7 @@
 layout: page
 title: ASHRAE - Great Energy Predictor III
 description: A Kaggle competition to generate crowd-sourced energy prediction models.
+img: /assets/img/gep3.png
 github: https://github.com/buds-lab/ashrae-great-energy-predictor-3-overview-analysis
 importance: 1
 ---
