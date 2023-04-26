@@ -3,7 +3,7 @@ layout: page
 title: SensorAct
 description: A Decentralized and Extensible Middleware for Smart Buildings
 github: https://github.com/iiitd-ucla-pc3
-#img: /assets/img/sensort-logo.png
+img: /assets/img/sensort-logo.png
 importance: 102
 ---
 
@@ -20,7 +20,7 @@ The archaic centralized software systems, currently used to manage buildings, ma
 
 **Team members:** Pandarasamy Arjunan (IIIT-Delhi), Haksoo Choi (UCLA), Manaswi Saha (IIIT-Delhi), Nipun Batra (IIIT-Delhi), and Manoj Gulati (IIIT-Delhi)<br>
 **Advisors:** Prof. Mani B Srivastava (UCLA), Dr. Amarjeet Singh (IIIT-Delhi), and Dr. Pushpendra Singh (IIIT-Delhi)<br>
-**Code:** [github](https://github.com/iiitd-ucla-pc3){:target="_blank" rel="noopener"}<br>
+**Code:** [GitHub](https://github.com/iiitd-ucla-pc3){:target="_blank" rel="noopener"}<br>
 **Publications:** 
 <div class="publications">
   {% bibliography -f papers -q @*[title=SensorAct: A Decentralized and Scriptable Middleware for Smart Energy Buildings]* %}
