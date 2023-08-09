@@ -1,0 +1,543 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+<title>Pandarasamy  Arjunan (Samy) | Energy Anomaly Detection</title>
+<meta name="description" content="Assistant Professor, RBCCPS, IISc, Bangalore, India!">
+
+<!-- Open Graph -->
+
+
+<!-- Bootstrap & MDB -->
+<link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet" integrity="sha512-MoRNloxbStBcD8z3M/2BmnT+rg4IsMxPkXaGh2zD6LGNNFE80W3onsAhRcMAMrSoyWL9xD7Ert0men7vR8LUZg==" crossorigin="anonymous">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.19.1/css/mdb.min.css" integrity="sha512-RO38pBRxYH3SoOprtPTD86JFOclM51/XTIdEPh5j8sj4tp8jmQIx26twG52UaLi//hQldfrh7e51WzP9wuP32Q==" crossorigin="anonymous" />
+
+<!-- Fonts & Icons -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"  integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog==" crossorigin="anonymous">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/academicons/1.9.0/css/academicons.min.css" integrity="sha512-W4yqoT1+8NLkinBLBZko+dFB2ZbHsYLDdr50VElllRcNt2Q4/GSs6u71UHKxB7S6JEMCp5Ve4xjh3eGQl/HRvg==" crossorigin="anonymous">
+<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Roboto+Slab:100,300,400,500,700|Material+Icons">
+
+<!-- Code Syntax Highlighting -->
+<link rel="stylesheet" href="https://gitcdn.link/repo/jwarby/jekyll-pygments-themes/master/github.css" />
+
+<!-- Styles -->
+<link rel="shortcut icon" href="/assets/img/favicon.ico">
+<link rel="stylesheet" href="/assets/css/main.css">
+
+<link rel="canonical" href="/projects/energy-anomaly-detection/">
+
+<!-- Theming-->
+
+
+    
+<!-- MathJax -->
+<script defer type="text/javascript" id="MathJax-script" src="https://cdn.jsdelivr.net/npm/mathjax@3.1.2/es5/tex-mml-chtml.js"></script>
+<script defer src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+
+
+  </head>
+
+  <body class="fixed-top-nav ">
+
+    <!-- Header -->
+
+    <header>
+
+    <!-- Nav Bar -->
+    <nav id="navbar" class="navbar navbar-light navbar-expand-sm fixed-top">
+    <div class="container">
+      
+      <a class="navbar-brand title font-weight-lighter" href="/">
+       <span class="font-weight-bold">Pandarasamy</span>   Arjunan (Samy)
+      </a>
+      
+      <!-- Navbar Toogle -->
+      <button class="navbar-toggler collapsed ml-auto" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar top-bar"></span>
+        <span class="icon-bar middle-bar"></span>
+        <span class="icon-bar bottom-bar"></span>
+      </button>
+      <div class="collapse navbar-collapse text-right" id="navbarNav">
+        <ul class="navbar-nav ml-auto flex-nowrap">
+          <!-- About -->
+          <li class="nav-item ">
+            <a class="nav-link" href="/">
+              about
+              
+            </a>
+          </li>
+          
+          <!-- Other pages -->
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          <li class="nav-item ">
+              <a class="nav-link" href="/projects/">
+                projects
+                
+              </a>
+          </li>
+          
+          
+          
+          <li class="nav-item ">
+              <a class="nav-link" href="/publications/">
+                publications
+                
+              </a>
+          </li>
+          
+          
+          
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+</header>
+
+
+    <!-- Content -->
+
+    <div class="container mt-5">
+      <div class="post">
+
+  <header class="post-header">
+    <h1 class="post-title">Energy Anomaly Detection</h1>
+    <p class="post-description">Large-scale Anomaly Detection (LEAD) dataset and techniques.</p>
+  </header>
+
+  <article>
+    <div class="row">
+    <div class="col-sm mt-3 mt-md-0 text-center">
+        <img class="img-fluid rounded z-depth-1" src="/assets/img/anomaly_example.png" alt="" title="Anomaly Example" />
+    </div>
+</div>
+<div class="caption">
+    An example anomaly in the hourly electricity readings from an office building.
+</div>
+
+<h4>Kaggle Competition: Large-scale Energy Anomaly Detection (LEAD)</h4>
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0 text-center">
+		<a href="https://www.kaggle.com/competitions/energy-anomaly-detection" target="_blank">
+			<img class="img-fluid rounded z-depth-1" src="/assets/img/lead_competition.png" alt="" title="LEAD competition" />
+		</a>
+    </div>
+</div>
+<p><br />
+Buildings consume approximately one-third of the total energy around the world. It is estimated that more than 20% of this energy is wasted due to equipment failure, aging, misconfiguration, and human-related errors. This wasteful use of energy can be identified and prevented using a data-driven analytical technique known as anomaly or outlier detection. Modern buildings are densely equipped with smart energy meters, which periodically generate a massive amount of time-series data yielding a few million data points every day. This data can be leveraged to identify anomalies present in the energy consumption profiles, which is a big step towards saving energy and achieving global sustainability.</p>
+
+<p>In this competition, data scientists were challenged to develop accurate models to identify abnormal energy usage instances (point anomaly) in year-long hourly smart electricity meter time series. The provided dataset is the extended version of the dataset used in the ASHRAE - Great Energy Predictor III competition after carefully annotating each data point of electricity meters from approximately 400 commercial buildings.</p>
+
+<p><strong>Competition website:</strong> <a href="https://www.kaggle.com/competitions/energy-anomaly-detection" target="_blank" rel="noopener">Kaggle</a><br />
+<strong>Winnning solution:</strong> <a href="https://www.kaggle.com/code/patrick0302/2-anomaly-detection-features-csv-revised-lgb" target="_blank" rel="noopener">Kaggle notebook</a><br />
+<strong>Code:</strong> <a href="https://www.kaggle.com/competitions/energy-anomaly-detection/code" target="_blank" rel="noopener">Kaggle notebooks</a><br /></p>
+
+<hr />
+
+<h4> LEAD1.0: a large-scale annotated dataset for energy anomaly detection in commercial buildings </h4>
+<p>Modern buildings are densely equipped with smart energy meters, which periodically generate a massive amount of time-series data yielding a few million data points every day. This data can be leveraged to discover the underlying load and infer their energy consumption patterns, inter-dependencies on environmental factors, and the building’s operational properties. Furthermore, it allows us to simultaneously identify anomalies present in the electricity consumption profiles, which is a big step towards saving energy and achieving global sustainability. However, to date, the lack of large-scale annotated energy consumption datasets hinders the ongoing research in anomaly detection. We contribute to this effort by releasing a carefully annotated version of a publicly available ASHRAE Great Energy Predictor III data set containing 1,413 smart electricity meter time series spanning over one year. In addition, we benchmark the performance of eight state-of-the-art anomaly detection methods on our dataset and compare their performance.</p>
+
+<p><strong>Team:</strong> Manoj Gulati (SMU) and Pandarasamy Arjunan (BEARS)<br />
+<strong>Code:</strong> <a href="https://github.com/samy101/lead-dataset" target="_blank" rel="noopener">GitHub</a><br /></p>
+<hr />
+
+<h4> Multi-User Energy Consumption Monitoring and Anomaly Detection with Partial Context Information </h4>
+<p>Anomaly detection is an important problem in building energy management in order to identify energy theft and inefficiencies. However, it is hard to differentiate actual anomalies from the genuine changes in energy consumption due to seasonal variations and changes in personal settings such as holidays. One of the important drawbacks of existing anomaly detection algorithms is that various unknown context variables, such as seasonal variations, can affect the energy consumption of users in ways that appear anomalous to existing time series based anomaly detection algorithms.In this project, we have developed a system for monitoring the energy consumption of multiple users within a neighborhood and a novel algorithm for detecting anomalies by combining data from multiple users. For each user, the neighborhood is defined as the set of all other users that have similar characteristics (function, location or demography), and are therefore likely to react and consume energy in the similar way in response to the external conditions. The neighborhood can be predefined based on prior customer information, or can be identified through an analysis of historical energy consumption. The proposed algorithm works as a two-step process. In the first step, the algorithm periodically computes an anomaly score for each user by just considering their own energy consumption and variations in the consumption of the past. In the second step, the anomaly score for a user is adjusted by analyzing the energy consumption data in the neighborhood. The collation of data within the neighborhood allows the proposed algorithm to differentiate between these genuine effects and real anomalous behavior of users. Unlike multivariate time series anomaly detection algorithms, the proposed algorithm can identify specific users that are exhibiting anomalous behavior. The capabilities of the algorithm are demonstrated using several year-long real-world data sets, for commercial as well as residential consumers.</p>
+
+<p><strong>Team:</strong> Pandarasamy Arjunan (IIIT-Delhi), Harshad D Khadilkar (IBM Research, Bangalore), Tanuja Ganu (IBM Research, Bangalore), Zainul M Charbiwala (IBM Research, Bangalore), Dr. Amarjeet Singh (IIIT-Delhi), and Dr. Pushpendra Singh (IIIT-Delhi)<br />
+<strong>Code:</strong> <a href="https://github.com/samy101/anomaly_detection" target="_blank" rel="noopener">GitHub</a><br /></p>
+<hr />
+
+<p><br />
+<strong>Publications:</strong></p>
+<div class="publications">
+  <ol class="bibliography"><li><div class="row">
+  <div class="col-sm-3 abbr">
+  
+    
+    <abbr class="badge badge-pill"><a href="http://buildsys.acm.org/" target="_blank">ACM BuildSys</a></abbr>
+    
+  
+  
+  
+  
+      
+    	
+	  
+	    <abbr class="badge badge-pill"><a href="http://portal.core.edu.au/conf-ranks/2175/" target="_blank">CORE: A</a></abbr>
+	  
+	
+  
+
+  
+  </div>
+
+  <div id="fu2022trimming" class="col-sm-9">
+    
+      <div class="title">Trimming outliers using trees: winning solution of the large-scale energy anomaly detection (LEAD) competition</div>
+      <div class="author">
+        
+          
+            
+              
+                
+                  Fu, Chun,
+                
+              
+            
+          
+        
+          
+            
+              
+                <em>Arjunan, Pandarasamy</em>,
+              
+            
+          
+        
+          
+            
+              
+                
+                  and Miller, Clayton
+                
+              
+            
+          
+        
+      </div>
+
+      <div class="periodical">
+      
+        <em>In Proceedings of the 9th ACM International Conference on Systems for Energy-Efficient Buildings, Cities, and Transportation</em>		
+				
+		
+      
+      
+        2022
+      
+      </div>
+    
+
+    <div class="links">
+    
+    
+    
+	
+      <a href="https://doi.org/10.1145/3563357.3566147" class="btn btn-sm z-depth-0" role="button" target="_blank">LINK</a>
+    
+    
+      
+      <a href="/assets/pdf/2022-buildsys-lead-winning-solution.pdf" class="btn btn-sm z-depth-0" role="button" target="_blank">PDF</a>
+      
+    
+    
+    
+    
+      <a href="https://www.kaggle.com/competitions/energy-anomaly-detection/code" class="btn btn-sm z-depth-0" role="button" target="_blank">Code</a>
+    
+    
+    
+    	
+	
+    </div>
+
+    <!-- Hidden abstract block -->
+    
+  </div>
+</div>
+</li></ol>
+  <ol class="bibliography"><li><div class="row">
+  <div class="col-sm-3 abbr">
+  
+    
+    <abbr class="badge badge-pill"><a href="https://energy.acm.org/conferences/eenergy/2020/" target="_blank">ACM e-Energy</a></abbr>
+    
+  
+  
+  
+  
+      
+    	
+	  
+	
+  
+
+  
+  </div>
+
+  <div id="gulati2022lead1" class="col-sm-9">
+    
+      <div class="title">LEAD1.0: a large-scale annotated dataset for energy anomaly detection in commercial buildings</div>
+      <div class="author">
+        
+          
+            
+              
+                
+                  Gulati, Manoj,
+                
+              
+            
+          
+        
+          
+            
+              
+                and <em>Arjunan, Pandarasamy</em>
+              
+            
+          
+        
+      </div>
+
+      <div class="periodical">
+      
+        <em>In Proceedings of the Thirteenth ACM International Conference on Future Energy Systems</em>		
+				
+		
+      
+      
+        2022
+      
+      </div>
+    
+
+    <div class="links">
+    
+    
+    
+	
+      <a href="https://doi.org/10.1145/3538637.3539761" class="btn btn-sm z-depth-0" role="button" target="_blank">LINK</a>
+    
+    
+      
+      <a href="/assets/pdf/2022-eenergy-lead.pdf" class="btn btn-sm z-depth-0" role="button" target="_blank">PDF</a>
+      
+    
+    
+    
+    
+      <a href="https://github.com/samy101/lead-dataset" class="btn btn-sm z-depth-0" role="button" target="_blank">Code</a>
+    
+    
+    
+    	
+	
+    </div>
+
+    <!-- Hidden abstract block -->
+    
+  </div>
+</div>
+</li></ol>
+  <ol class="bibliography"><li><div class="row">
+  <div class="col-sm-3 abbr">
+  
+    
+    <abbr class="badge badge-pill"><a href="http://buildsys.acm.org/" target="_blank">ACM BuildSys</a></abbr>
+    
+  
+  
+  
+  
+      
+    	
+	  
+	    <abbr class="badge badge-pill"><a href="http://portal.core.edu.au/conf-ranks/2175/" target="_blank">CORE: A</a></abbr>
+	  
+	
+  
+
+  
+  </div>
+
+  <div id="arjunan2015multi" class="col-sm-9">
+    
+      <div class="title">Multi-User Energy Consumption Monitoring and Anomaly Detection with Partial Context Information</div>
+      <div class="author">
+        
+          
+            
+              
+                <em>Arjunan, Pandarasamy</em>,
+              
+            
+          
+        
+          
+            
+              
+                
+                  Khadilkar, Harshad D.,
+                
+              
+            
+          
+        
+          
+            
+              
+                
+                  Ganu, Tanuja,
+                
+              
+            
+          
+        
+          
+            
+              
+                
+                  Charbiwala, Zainul M.,
+                
+              
+            
+          
+        
+          
+            
+              
+                
+                  Singh, Amarjeet,
+                
+              
+            
+          
+        
+          
+            
+              
+                
+                  and Singh, Pushpendra
+                
+              
+            
+          
+        
+      </div>
+
+      <div class="periodical">
+      
+        <em>In Proceedings of the 2nd ACM International Conference on Embedded Systems for Energy-Efficient Built Environments</em>		
+		
+		   <em>(BuildSys ’15)</em>,
+				
+		
+		   <em>Seoul, South Korea</em>,
+		
+      
+      
+        2015
+      
+      </div>
+    
+
+    <div class="links">
+    
+      <a class="abstract btn btn-sm z-depth-0" role="button">Abs</a>
+    
+    
+    
+	
+      <a href="https://doi.org/10.1145/2821650.2821662" class="btn btn-sm z-depth-0" role="button" target="_blank">LINK</a>
+    
+    
+      
+      <a href="/assets/pdf/2015-anomaly-detection.pdf" class="btn btn-sm z-depth-0" role="button" target="_blank">PDF</a>
+      
+    
+    
+    
+    
+      <a href="https://github.com/samy101/anomaly_detection" class="btn btn-sm z-depth-0" role="button" target="_blank">Code</a>
+    
+    
+    
+    	
+	
+    </div>
+
+    <!-- Hidden abstract block -->
+    
+    <div class="abstract hidden">
+      <p>Anomaly detection is an important problem in building energy management in order to identify energy theft and inefficiencies. However, it is hard to differentiate actual anomalies from the genuine changes in energy consumption due to seasonal variations and changes in personal settings such as holidays. One of the important drawbacks of existing anomaly detection algorithms is that various unknown context variables, such as seasonal variations, can affect the energy consumption of users in ways that appear anomalous to existing time series based anomaly detection algorithms.In this paper, we present a system for monitoring the energy consumption of multiple users within a neighborhood and a novel algorithm for detecting anomalies by combining data from multiple users. For each user, the neighborhood is defined as the set of all other users that have similar characteristics (function, location or demography), and are therefore likely to react and consume energy in the similar way in response to the external conditions. The neighborhood can be predefined based on prior customer information, or can be identified through an analysis of historical energy consumption. The proposed algorithm works as a two-step process. In the first step, the algorithm periodically computes an anomaly score for each user by just considering their own energy consumption and variations in the consumption of the past. In the second step, the anomaly score for a user is adjusted by analyzing the energy consumption data in the neighborhood. The collation of data within the neighborhood allows the proposed algorithm to differentiate between these genuine effects and real anomalous behavior of users. Unlike multivariate time series anomaly detection algorithms, the proposed algorithm can identify specific users that are exhibiting anomalous behavior. The capabilities of the algorithm are demonstrated using several year-long real-world data sets, for commercial as well as residential consumers.</p>
+    </div>
+    
+  </div>
+</div>
+</li></ol>
+</div>
+
+  </article>
+
+</div>
+
+    </div>
+
+    <!-- Footer -->
+
+    
+<footer class="fixed-bottom">
+  <div class="container mt-0">
+    &copy; Copyright 2023 Pandarasamy  Arjunan (Samy).
+    Powered by <a href="http://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme. Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
+
+    
+    Last updated: August 09, 2023.
+    
+  </div>
+</footer>
+
+
+
+  </body>
+
+  <!-- jQuery -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" integrity="sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg==" crossorigin="anonymous"></script>
+
+  <!-- Bootsrap & MDB scripts -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.4.4/umd/popper.min.js" integrity="sha512-eUQ9hGdLjBjY3F41CScH3UX+4JDSI9zXeroz7hJ+RteoCaY+GP/LDoM8AO+Pt+DRFw3nXqsjh9Zsts8hnYv8/A==" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha512-M5KW3ztuIICmVIhjSqXe01oV2bpe248gOxqmlcYrEzAvws7Pw3z6BK0iGbrwvdrUQUhi3eXgtxp5I8PDo9YfjQ==" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.19.1/js/mdb.min.js" integrity="sha512-Mug9KHKmroQFMLm93zGrjhibM2z2Obg9l6qFG2qKjXEXkMp/VDkI4uju9m4QKPjWSwQ6O2qzZEnJDEeCw0Blcw==" crossorigin="anonymous"></script>
+
+  
+<!-- Mansory & imagesLoaded -->
+<script defer src="https://unpkg.com/masonry-layout@4/dist/masonry.pkgd.min.js"></script>
+<script defer src="https://unpkg.com/imagesloaded@4/imagesloaded.pkgd.min.js"></script>
+<script defer src="/assets/js/mansory.js" type="text/javascript"></script>
+
+
+  
+
+
+
+<!-- Load Common JS -->
+<script src="/assets/js/common.js"></script>
+
+<!-- Load DarkMode JS -->
+<script src="/assets/js/dark_mode.js"></script>
+
+
+</html>
